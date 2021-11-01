@@ -1,0 +1,281 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+
+nav{
+	width: 100%;
+	height: 60px;
+	background: #344051;
+	position: fixed;
+
+}
+
+.logo{
+	color: #ffad58;
+	font-size: 25px;
+	line-height: 60px;
+	padding-left: 288px;
+	float: left;
+	-webkit-animation: comming 5s;
+	-o-animation: comming 5s;
+	animation: comming 5s;
+
+}
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+
+.menu{
+	float: left;
+	padding-top: 10px;
+	padding-left: 430px;
+	color: #fff;
+}
+
+.menu li{
+	float: left;
+	line-height: 30px;
+	color: #fff;
+	margin-right: 40px;
+	font-size: 20px;
+	text-transform: uppercase;
+	transition: 0.3s;
+	-webkit-animation: gay 2s ease forwards;
+	-o-animation:gay 2s ease forwards;
+	animation:gay 2s ease forwards;
+	opacity: 0;
+}
+
+
+.main{
+
+	height: 100%;
+	width: 100%;
+	background: url(../img/pngegg.png) no-repeat 90% 50%;
+}
+
+.title_container{
+	padding: 200px 0px 0px 0px;
+	color: #000;
+	text-align: center;
+	-webkit-animation: poro 1s;
+	-o-animation:poro 1s;
+	animation:poro 1s;
+	}
+
+.title_container h1{
+	font-size: 60px;
+	font-weight: bold;
+
+}
+.title_container h4{
+	margin-top: 40px;
+	font-size: 25px;
+}
+
+
+.title_container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 10px;
+	font-size:15px;
+	margin: 58px 14px 0px 14px
+
+}
+
+.menu li a{
+	transition: all 0.3s;
+	color: white;
+	transform: scale(1);
+	display: inline-block;
+}
+
+.menu li a:visited{
+	color: white;
+}
+
+.menu li a:hover{
+	color: #d17700;
+	transform: scale(1.1);
+}
+
+.menu li a:active{
+	transform: scale(0.1);
+}
+
+
+.title_container input{
+	transition: all 0.2s;
+
+}
+.title_container input:hover{
+	background: #344051;
+	transform: scale(1.2);
+	color: white;
+
+
+}
+.title_container input:active{
+	transform: scale(0.5);
+}
+
+@keyframes comming{
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+}
+
+
+@keyframes gay{
+	from{
+		opacity: 0;
+		margin-top: -80px;
+	}
+	to{
+		opacity: 1;
+		margin-top: 0px;
+	}
+}
+
+.menu li:nth-child(2){
+	animation-delay: 0.4s;
+}
+.menu li:nth-child(3){
+	animation-delay: 0.8s;
+}
+.menu li:nth-child(4){
+	animation-delay: 1.2s;
+}
+.menu li:nth-child(5){
+	animation-delay: 1.6s;
+}
+.menu li:nth-child(6){
+	animation-delay: 2.0s;
+}
+
+
+@keyframes poro{
+	from{
+		opacity: 0;
+		margin-left: -500px;
+	}
+	to{
+		opacity: 1;
+		margin-left: 0;
+	}
+}
+
+
+.resume{
+	font-size: 25px;
+	text-align: center;
+	box-sizing: 100px 100px;
+}
+.resume h2{
+	margin-bottom: 10px;
+}
+
+.resume input{
+	margin-top: 20px;
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius: 10px;
+	font-size:15px;
+	margin: 58px 14px 0px 14px
+
+}
+.resume input:hover{
+	color: #d17700;
+	transform: scale(1.1);
+}
+
+
+.resume input:active{
+	transform: scale(0.1);
+
+}
+
+
+.resume input{
+	transition: all 0.3s;
+	color: black;
+	transform: scale(1);
+	display: inline-block;
+}
+
+.skills{
+	background: url(../img/gosling.png);
+	margin-top: 300px;
+	text-align: center;
+	background: none;
+}
+
+
+.skills h4{
+	margin-bottom: 10px;
+	font-size: 40;
+	color: #ffad58
+}
+
+.skills h5{
+	margin-top: 30;
+	font-size: 20;
+}
+
+.skills h2{
+	font-size:30px;
+	margin-bottom: 10px;
+
+}
+
+
+.skillss{
+	margin-top: 40px;
+}
+
+
+.cais{
+	margin-top: 300px;
+	text-align: center;
+	background: none;
+	font-size: 20px;
+}
+
+.cais h2{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.cais h3{
+	margin-top: 40px;
+
+}
+
+.cost{
+	margin-top: 40px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.stat{
+	margin-top: 40px;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.contacts{
+	margin-top: 40px;
+	font-size: 25px;
+	text-align: center;
+}
